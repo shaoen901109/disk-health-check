@@ -61,7 +61,7 @@ Windows 用的每月硬碟健檢工具。每月 1 號（當天沒開機則於下
 | 用途 | 元件 | 授權 |
 |---|---|---|
 | SMART 讀取（外部程式，未附帶） | [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/) | MIT |
-| 磁碟與可靠度計數器 | Windows built-in PowerShell Storage cmdlets and Task Scheduler | Windows 內建 |
+| 磁碟與可靠度計數器 | Windows 內建的 PowerShell 儲存裝置指令（Storage cmdlets）與工作排程器 | Windows 內建 |
 
 開發過程使用 [Claude Code](https://claude.com/claude-code)（Anthropic）協助。
 
