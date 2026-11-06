@@ -56,6 +56,21 @@ Windows 用的每月硬碟健檢工具。每月 1 號（當天沒開機則於下
 | `common.ps1` | 共用設定與函式 |
 | `launcher.vbs` | 無視窗啟動 PowerShell |
 
+## 技術來源與致謝
+
+| 用途 | 元件 | 授權 |
+|---|---|---|
+| SMART 讀取（外部程式，未附帶） | [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/) | MIT |
+| 磁碟與可靠度計數器 | Windows built-in PowerShell Storage cmdlets and Task Scheduler | Windows 內建 |
+
+開發過程使用 [Claude Code](https://claude.com/claude-code)（Anthropic）協助。
+
+## 作者
+
+- 網站：https://shaoenstudio.com
+- 聯絡信箱：shaoenstudio@gmail.com
+- GitHub：[@shaoen901109](https://github.com/shaoen901109)
+
 ## 授權
 
 [MIT](LICENSE)。CrystalDiskInfo 是另一個獨立專案、有自己的授權，不隨本專案散布。

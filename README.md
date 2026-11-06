@@ -56,6 +56,21 @@ Run `uninstall.ps1` (asks for UAC). It removes the two scheduled tasks, the `dis
 | `common.ps1` | Shared settings and functions |
 | `launcher.vbs` | Starts PowerShell without a console window |
 
+## Credits
+
+| Purpose | Component | License |
+|---|---|---|
+| SMART reading (external program, not included) | [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/) | MIT |
+| Disk and reliability counters | Windows built-in PowerShell Storage cmdlets and Task Scheduler | part of Windows |
+
+Developed with the help of [Claude Code](https://claude.com/claude-code) (Anthropic).
+
+## Author
+
+- Website: https://shaoenstudio.com
+- Email: shaoenstudio@gmail.com
+- GitHub: [@shaoen901109](https://github.com/shaoen901109)
+
 ## License
 
 [MIT](LICENSE). CrystalDiskInfo is a separate project with its own license and is not distributed here.
