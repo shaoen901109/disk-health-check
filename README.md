@@ -1,5 +1,7 @@
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
+> 📖 **Step-by-step tutorial (Traditional Chinese):** https://shao-en.com/blog/disk-health-check-guide.html — not sure how to set it up? Hand the article to Claude or ChatGPT and let it walk you through.
+
 # disk-health-check
 
 A monthly disk health check for Windows. On the 1st of each month (or at the next logon if the PC was off) it shows a toast notification asking whether to check all local disks. If you click "Start scan" (開始掃描), it runs in the background and writes an HTML report.

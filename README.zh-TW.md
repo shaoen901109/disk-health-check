@@ -1,5 +1,7 @@
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
+> 📖 **圖文教學：** https://shao-en.com/blog/disk-health-check-guide.html ——如果你不知道該如何操作，請把這篇文章交給你的 Claude 或 ChatGPT。
+
 # disk-health-check（硬碟健檢）
 
 Windows 用的每月硬碟健檢工具。每月 1 號（當天沒開機則於下次登入時）跳出通知，詢問是否對本機所有硬碟做健康檢查；按「開始掃描」後於背景執行，並產生 HTML 報告。
