@@ -1,0 +1,7 @@
+# Runtime output (disk serial numbers and health data)
+data/
+reports/
+# Third-party tool: download it yourself, do not commit
+CrystalDiskInfo/
+*.exe
+*.dll
