@@ -58,6 +58,28 @@ Run `uninstall.ps1` (asks for UAC). It removes the two scheduled tasks, the `dis
 | `common.ps1` | Shared settings and functions |
 | `launcher.vbs` | Starts PowerShell without a console window |
 
+## Verify your download
+
+Download `disk-health-check-v1.0.0.zip` and `SHA256SUMS.txt` from [Releases](https://github.com/shaoen901109/disk-health-check/releases) (use the version you actually downloaded).
+
+1. Compare the checksum in PowerShell:
+
+   ```powershell
+   Get-FileHash .\disk-health-check-v1.0.0.zip -Algorithm SHA256
+   ```
+
+   The `Hash` must match the string in `SHA256SUMS.txt` (letter case does not matter).
+
+2. Verify where it was built (needs [GitHub CLI](https://cli.github.com/)):
+
+   ```powershell
+   gh attestation verify .\disk-health-check-v1.0.0.zip --repo shaoen901109/disk-health-check
+   ```
+
+   A successful result means GitHub Actions built this zip from this repository's source and it was not swapped along the way.
+
+Commits marked **Verified** on GitHub are signed by the author.
+
 ## Credits
 
 | Purpose | Component | License |
